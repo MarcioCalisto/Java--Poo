@@ -41,15 +41,4 @@ public class Data {
     public void mostrarData() {
         System.out.printf("%02d/%02d/%04d\n", dia, mes, ano);
     }
-
-    public static void main(String[] args) {
-        // Exemplo de uso
-        Data data = new Data(15, 2, 2024); 
-        System.out.print("Data original: ");
-        data.mostrarData();
-
-        data.adicionarUmDia();
-        System.out.print("Data após adicionar 1 dia: ");
-        data.mostrarData();
-    }
 }
