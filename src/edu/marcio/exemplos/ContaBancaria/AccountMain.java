@@ -9,8 +9,6 @@ public class AccountMain {
 
         Account minhaConta = new Account(2300);
 
-        minhaConta.credit(1000);
-
         // Exibe o saldo inicial de cada objeto
         System.out.printf("o saldo da sua conta é: $%.2f \n",
                 minhaConta.getBalance());
