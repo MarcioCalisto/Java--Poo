@@ -15,30 +15,16 @@ public class MaxFinder {
 
         System.out.println("Maximum " + resultado);
 }
-    public double minimun (double x, double y, double z) {
+    public double maximum(double x, double y, double z) {
 
-        double minimunValue = x;
+        double maxValue = x;
 
-        if (y < minimunValue)
-            minimunValue = y;
+        if (y > maxValue)
+        maxValue = y;
 
-        if (z < minimunValue) 
-            minimunValue = z;
+        if (z > maxValue) 
+        maxValue = z;
 
-        return minimunValue;
+        return maxValue;
     }
-
-    public double maximum (double x, double y, double z) {
-
-        double maximumValue = x;
-
-        if (y > maximumValue)
-            maximumValue = y;
-
-        if (z > maximumValue) 
-            maximumValue = z;
-
-        return maximumValue;
-    }
-
 }
