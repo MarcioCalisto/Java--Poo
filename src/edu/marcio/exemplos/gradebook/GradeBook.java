@@ -1,24 +1,35 @@
 package edu.marcio.exemplos.gradebook;
 
+// Figura 3.10: GradeBook.java
+// Classe GradeBook com um construtor para inicializar o
+// nome de um curso.
+
 import java.util.Scanner;
 
 public class GradeBook {
 
+    private String courseName; // nome do curso para esse gradeBook
 
+    // o construtor inicializa courseName com o argumento String
+    public GradeBook(String name) {
+        courseName = name; // inicializa courseName
+    } // fim do construtor
+
+    public void setCourseName(String name) {
+        courseName = name; // armazena o nome do curso
+    } // fim do método setCourseName
+
+    // método para recuperar o nome do curso
+    public String getCourseName() {
+        return courseName;
+        // fim do método setCourseName
+    }
+
+    // exibe uma mensagem de boas-vindas para o user GradeBook
     public void displayMessage() {
-        System.out.println("Welcome to the Grade Book!");
-    }
-
-    public void displaySoma() {
-        Scanner scanner = new Scanner(System.in);
-
-        System.out.println("Digite o primeiro number: ");
-        int number1 = scanner.nextInt();
-
-        System.out.println("Digite o segundo number: ");
-        int number2 = scanner.nextInt();
-
-        int soma = number1 + number2;
-        System.out.println(soma);
-    }
-}
+        // essa instrução chama getCourseName para obter
+        // nome do curso que esse GradeBook representa
+        System.out.printf("Welcome to the Grade Book for\n%s!\n");
+        getCourseName();
+    } // fim do método displayMessage
+} // fim da classe GradeBook
