@@ -10,7 +10,7 @@ public class teste01 {
 
         System.out.println("Enter firts number: ");
         int number1 = scanner.nextInt();
-        
+
         System.out.println("Enter second number: ");
         int number2 = scanner.nextInt();
 

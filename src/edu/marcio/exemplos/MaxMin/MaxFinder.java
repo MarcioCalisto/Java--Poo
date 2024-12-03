@@ -14,16 +14,17 @@ public class MaxFinder {
         double resultado = maximum(num1, num2, num3);
 
         System.out.println("Maximum " + resultado);
-}
+    }
+
     public double maximum(double x, double y, double z) {
 
         double maxValue = x;
 
         if (y > maxValue)
-        maxValue = y;
+            maxValue = y;
 
-        if (z > maxValue) 
-        maxValue = z;
+        if (z > maxValue)
+            maxValue = z;
 
         return maxValue;
     }

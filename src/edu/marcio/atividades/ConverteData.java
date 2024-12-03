@@ -32,7 +32,7 @@ public class ConverteData {
         return String.format("%02d/%02d/%04d", vDia, vMes, vAno);
     }
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
         ConverteData ex = new ConverteData();
         String vBD_data = "2015/07/01";
         String vData = ex.fConverteData(vBD_data);

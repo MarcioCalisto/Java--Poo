@@ -14,18 +14,18 @@ public class MinFinder {
         double resultado = maximum(num1, num2, num3);
 
         System.out.println("Minimum " + resultado);
-}
+    }
+
     public double maximum(double x, double y, double z) {
 
         double minValue = x;
 
         if (y < minValue)
-        minValue = y;
+            minValue = y;
 
-        if (z < minValue) 
-        minValue = z;
+        if (z < minValue)
+            minValue = z;
 
         return minValue;
     }
 }
-
