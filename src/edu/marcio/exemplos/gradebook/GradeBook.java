@@ -4,7 +4,7 @@ package edu.marcio.exemplos.gradebook;
 // Classe GradeBook com um construtor para inicializar o
 // nome de um curso.
 
-import java.util.Scanner;
+// import java.util.Scanner;
 
 public class GradeBook {
 
