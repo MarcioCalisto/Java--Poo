@@ -8,11 +8,15 @@ public class GradeBookTest {
                                 "CS101 Introduction to Java Programming");
                 GradeBook myGradebook2 = new GradeBook(
                                 "CS102 Data Structures in Java");
+                GradeBook myGradebook3 = new GradeBook(
+                                "CS103 Introduction to Machine Learning");
 
                 // exibe valor inicial de courseName para cada GradeBook
                 System.out.printf("gradeBook1 course name is: %s\n",
                                 myGradeBook1.getCourseName());
                 System.out.printf("gradeBook2 course name is: %s\n",
                                 myGradebook2.getCourseName());
+                System.out.printf("gradeBook2 course name is: %s\n",
+                                myGradebook3.getCourseName());
         } // fim do método
 } // fim da classe
