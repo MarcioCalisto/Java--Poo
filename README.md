@@ -19,7 +19,7 @@ Neste repositório, exploramos os quatro pilares da Programação Orientada a Ob
 
 1. Clone o repositório:
     ```bash
-    git clone https://github.com/ClxtMf/JAVA-POO.git
+    git clone https://github.com/MarcioCalisto/Java-Poo.git
     ```
 2. Navegue até o diretório do projeto:
     ```bash
